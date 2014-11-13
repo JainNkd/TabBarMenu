@@ -282,9 +282,6 @@
                                 <state key="normal" title="Home Page">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="70" y="285" width="260" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="VAU-bY-CSd" kind="push" id="dQq-5e-tul"/>
                                 </connections>
@@ -292,20 +289,20 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GYg-pi-j4k" firstAttribute="leading" secondItem="7Vc-PR-MxP" secondAttribute="leading" constant="70" id="0iW-mB-dWU"/>
-                            <constraint firstItem="GYg-pi-j4k" firstAttribute="top" secondItem="7P7-6z-mgg" secondAttribute="bottom" constant="285" id="VZC-UG-6SQ"/>
-                            <constraint firstItem="yqx-KR-hWe" firstAttribute="top" secondItem="GYg-pi-j4k" secondAttribute="bottom" constant="165" id="b1p-F3-W6b"/>
-                            <constraint firstAttribute="trailing" secondItem="GYg-pi-j4k" secondAttribute="trailing" constant="70" id="bQ7-oa-YPE"/>
+                            <constraint firstItem="GYg-pi-j4k" firstAttribute="top" secondItem="7Vc-PR-MxP" secondAttribute="top" constant="285" id="7fO-Ew-wM5"/>
+                            <constraint firstAttribute="trailing" secondItem="GYg-pi-j4k" secondAttribute="trailing" constant="70" id="PTM-xD-2TV"/>
+                            <constraint firstItem="GYg-pi-j4k" firstAttribute="leading" secondItem="7Vc-PR-MxP" secondAttribute="leading" constant="70" id="nCd-mK-G5Q"/>
+                            <constraint firstAttribute="bottom" secondItem="GYg-pi-j4k" secondAttribute="bottom" constant="165" id="nYv-jO-34f"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="GYg-pi-j4k"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0iW-mB-dWU"/>
-                                <exclude reference="VZC-UG-6SQ"/>
-                                <exclude reference="bQ7-oa-YPE"/>
-                                <exclude reference="b1p-F3-W6b"/>
+                                <exclude reference="7fO-Ew-wM5"/>
+                                <exclude reference="PTM-xD-2TV"/>
+                                <exclude reference="nCd-mK-G5Q"/>
+                                <exclude reference="nYv-jO-34f"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -313,10 +310,10 @@
                                 <include reference="GYg-pi-j4k"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0iW-mB-dWU"/>
-                                <include reference="VZC-UG-6SQ"/>
-                                <include reference="bQ7-oa-YPE"/>
-                                <include reference="b1p-F3-W6b"/>
+                                <include reference="7fO-Ew-wM5"/>
+                                <include reference="PTM-xD-2TV"/>
+                                <include reference="nCd-mK-G5Q"/>
+                                <include reference="nYv-jO-34f"/>
                             </mask>
                         </variation>
                     </view>
@@ -422,6 +419,6 @@
         <image name="start-screen-footer-icon-video.png" width="61" height="29"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xRe-Lr-PL1"/>
+        <segue reference="dQq-5e-tul"/>
     </inferredMetricsTieBreakers>
 </document>
