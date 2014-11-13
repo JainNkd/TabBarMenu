@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
-    
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     BOOL myBool = [defaults boolForKey:@"test"];
@@ -30,7 +28,7 @@
     else
     {
         [defaults setBool:YES forKey:@"test"];
-        [self performSegueWithIdentifier:@"SignupView" sender:nil];
+//        [self performSegueWithIdentifier:@"SignupView" sender:nil];
     }
     // Do any additional setup after loading the view, typically from a nib.
 }

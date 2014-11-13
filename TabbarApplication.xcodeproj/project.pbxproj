@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BB660A51A1474BA00A4392C /* PushNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB660A41A1474BA00A4392C /* PushNoAnimationSegue.m */; };
 		8BB9080A1A11E8FF000D7E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB908091A11E8FF000D7E07 /* main.m */; };
 		8BB9080D1A11E8FF000D7E07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9080C1A11E8FF000D7E07 /* AppDelegate.m */; };
 		8BB908101A11E8FF000D7E07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9080F1A11E8FF000D7E07 /* ViewController.m */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BB660A31A1474BA00A4392C /* PushNoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNoAnimationSegue.h; sourceTree = "<group>"; };
+		8BB660A41A1474BA00A4392C /* PushNoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNoAnimationSegue.m; sourceTree = "<group>"; };
 		8BB908041A11E8FF000D7E07 /* TabbarApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB908081A11E8FF000D7E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB908091A11E8FF000D7E07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				8BB9080C1A11E8FF000D7E07 /* AppDelegate.m */,
 				8BB9080E1A11E8FF000D7E07 /* ViewController.h */,
 				8BB9080F1A11E8FF000D7E07 /* ViewController.m */,
+				8BB660A31A1474BA00A4392C /* PushNoAnimationSegue.h */,
+				8BB660A41A1474BA00A4392C /* PushNoAnimationSegue.m */,
 				8BB908111A11E8FF000D7E07 /* Main.storyboard */,
 				8BB908141A11E8FF000D7E07 /* Images.xcassets */,
 				8BB908161A11E8FF000D7E07 /* LaunchScreen.xib */,
@@ -250,6 +255,7 @@
 				8BB908101A11E8FF000D7E07 /* ViewController.m in Sources */,
 				8BB9080D1A11E8FF000D7E07 /* AppDelegate.m in Sources */,
 				8BB9080A1A11E8FF000D7E07 /* main.m in Sources */,
+				8BB660A51A1474BA00A4392C /* PushNoAnimationSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.42912046370000001" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dJG-g4-X6L"/>
                 </viewController>
@@ -54,30 +54,48 @@
                         <viewControllerLayoutGuide type="bottom" id="hJG-7R-fni"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NOa-YM-dyx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqv-WQ-1AS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.43772051410000001" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pust View">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="153" y="277" width="95" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="J7b-op-wah" kind="push" id="bks-kz-Qbm"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.099703881049999998" green="0.81161794350000005" blue="0.93901209679999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nqv-WQ-1AS" secondAttribute="trailing" constant="70" id="55Q-ul-awM"/>
+                            <constraint firstAttribute="bottom" secondItem="nqv-WQ-1AS" secondAttribute="bottom" constant="165" id="Eja-K4-WfL"/>
+                            <constraint firstItem="nqv-WQ-1AS" firstAttribute="leading" secondItem="NOa-YM-dyx" secondAttribute="leading" constant="70" id="Hor-fM-meT"/>
+                            <constraint firstItem="nqv-WQ-1AS" firstAttribute="top" secondItem="NOa-YM-dyx" secondAttribute="top" constant="285" id="gwP-b3-MGW"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="nqv-WQ-1AS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="55Q-ul-awM"/>
+                                <exclude reference="Eja-K4-WfL"/>
+                                <exclude reference="Hor-fM-meT"/>
+                                <exclude reference="gwP-b3-MGW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="nqv-WQ-1AS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="55Q-ul-awM"/>
+                                <include reference="Eja-K4-WfL"/>
+                                <include reference="Hor-fM-meT"/>
+                                <include reference="gwP-b3-MGW"/>
                             </mask>
                         </variation>
                     </view>
@@ -96,55 +114,15 @@
                         <viewControllerLayoutGuide type="bottom" id="glD-Qb-pxf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XdB-CK-pay">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXz-3J-cE1">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="271" width="120" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="9VF-0L-g9Q" kind="presentation" id="Vqi-7z-dtf"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ZXz-3J-cE1"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="ZXz-3J-cE1"/>
-                            </mask>
-                        </variation>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="LeM-BZ-sa8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bek-nj-MzL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3339" y="1774"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="VNJ-Ks-Rhm">
-            <objects>
-                <viewController id="9VF-0L-g9Q" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YNu-pf-emA"/>
-                        <viewControllerLayoutGuide type="bottom" id="fVs-k8-JIB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JQc-bP-8YI">
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uN9-42-tjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4158" y="1762"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mI6-R0-kQZ">
@@ -155,8 +133,9 @@
                         <viewControllerLayoutGuide type="bottom" id="6ZA-Zs-VtI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Hv-rW-VDw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.544921875" green="0.64059349799999998" blue="0.90889616939999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="oWk-Of-UA7"/>
                 </viewController>
@@ -173,36 +152,53 @@
                         <viewControllerLayoutGuide type="bottom" id="ccT-NM-9bW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LGP-cb-xEc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pw-ir-SIX">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="364" width="46" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="BA2-2c-cEN" kind="push" identifier="SignupView" id="ZM7-8a-phx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8pw-ir-SIX" secondAttribute="trailing" constant="70" id="DpT-GB-Skq"/>
+                            <constraint firstItem="8pw-ir-SIX" firstAttribute="top" secondItem="LGP-cb-xEc" secondAttribute="top" constant="285" id="O2o-Xa-B0n"/>
+                            <constraint firstAttribute="bottom" secondItem="8pw-ir-SIX" secondAttribute="bottom" constant="165" id="XVH-KQ-0Vc"/>
+                            <constraint firstItem="8pw-ir-SIX" firstAttribute="leading" secondItem="LGP-cb-xEc" secondAttribute="leading" constant="70" id="Yt4-Qo-6M1"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8pw-ir-SIX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DpT-GB-Skq"/>
+                                <exclude reference="O2o-Xa-B0n"/>
+                                <exclude reference="XVH-KQ-0Vc"/>
+                                <exclude reference="Yt4-Qo-6M1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8pw-ir-SIX"/>
                             </mask>
+                            <mask key="constraints">
+                                <include reference="DpT-GB-Skq"/>
+                                <include reference="O2o-Xa-B0n"/>
+                                <include reference="XVH-KQ-0Vc"/>
+                                <include reference="Yt4-Qo-6M1"/>
+                            </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="zE4-Mi-pZs"/>
                     <connections>
-                        <segue destination="VAU-bY-CSd" kind="push" identifier="StartView" id="xRe-Lr-PL1"/>
+                        <segue destination="VAU-bY-CSd" kind="custom" identifier="StartView" customClass="PushNoAnimationSegue" id="xRe-Lr-PL1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kwH-fm-h8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -218,30 +214,47 @@
                         <viewControllerLayoutGuide type="bottom" id="nPS-8w-Kur"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NVh-Ge-JTS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjk-ln-qSL">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Verification Code">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="143" y="350" width="46" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="kEd-IL-icH" kind="push" id="WPg-lO-Rgl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cjk-ln-qSL" secondAttribute="bottom" constant="165" id="FoM-YO-loW"/>
+                            <constraint firstAttribute="trailing" secondItem="cjk-ln-qSL" secondAttribute="trailing" constant="70" id="kOG-iw-v5C"/>
+                            <constraint firstItem="cjk-ln-qSL" firstAttribute="leading" secondItem="NVh-Ge-JTS" secondAttribute="leading" constant="70" id="tNu-0b-fcb"/>
+                            <constraint firstItem="cjk-ln-qSL" firstAttribute="top" secondItem="NVh-Ge-JTS" secondAttribute="top" constant="285" id="xpP-gM-nLU"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="cjk-ln-qSL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FoM-YO-loW"/>
+                                <exclude reference="kOG-iw-v5C"/>
+                                <exclude reference="tNu-0b-fcb"/>
+                                <exclude reference="xpP-gM-nLU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="cjk-ln-qSL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FoM-YO-loW"/>
+                                <include reference="kOG-iw-v5C"/>
+                                <include reference="tNu-0b-fcb"/>
+                                <include reference="xpP-gM-nLU"/>
                             </mask>
                         </variation>
                     </view>
@@ -260,30 +273,50 @@
                         <viewControllerLayoutGuide type="bottom" id="yqx-KR-hWe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7Vc-PR-MxP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYg-pi-j4k">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Home Page">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="341" width="46" height="30"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="70" y="285" width="260" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="VAU-bY-CSd" kind="push" id="dQq-5e-tul"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GYg-pi-j4k" firstAttribute="leading" secondItem="7Vc-PR-MxP" secondAttribute="leading" constant="70" id="0iW-mB-dWU"/>
+                            <constraint firstItem="GYg-pi-j4k" firstAttribute="top" secondItem="7P7-6z-mgg" secondAttribute="bottom" constant="285" id="VZC-UG-6SQ"/>
+                            <constraint firstItem="yqx-KR-hWe" firstAttribute="top" secondItem="GYg-pi-j4k" secondAttribute="bottom" constant="165" id="b1p-F3-W6b"/>
+                            <constraint firstAttribute="trailing" secondItem="GYg-pi-j4k" secondAttribute="trailing" constant="70" id="bQ7-oa-YPE"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="GYg-pi-j4k"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0iW-mB-dWU"/>
+                                <exclude reference="VZC-UG-6SQ"/>
+                                <exclude reference="bQ7-oa-YPE"/>
+                                <exclude reference="b1p-F3-W6b"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="GYg-pi-j4k"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0iW-mB-dWU"/>
+                                <include reference="VZC-UG-6SQ"/>
+                                <include reference="bQ7-oa-YPE"/>
+                                <include reference="b1p-F3-W6b"/>
                             </mask>
                         </variation>
                     </view>
